@@ -18,7 +18,6 @@ function NewTaskForm({categories, onTaskFormSubmit}) {
 
     onTaskFormSubmit(newTask); 
     setTaskText(""); 
-    setSelectedCategory(categories[0]); 
   };
   return (
     <form 
@@ -49,7 +48,7 @@ function NewTaskForm({categories, onTaskFormSubmit}) {
       </label>
       <input 
       type = "submit" 
-      value = "Add Task" 
+      value = "Add task" 
       />
     </form>
   );
